@@ -1,0 +1,451 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins',sans-serif;
+}
+.main-bar{
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-block: 20px;
+}
+.nav-logo img{
+    width:100px;
+    padding-right: 8px;
+}
+.nav-heading h1{
+    font-size:40px;
+    color: #332762;
+    font-weight: 700;
+}
+.nav-heading h5{
+    padding-top:5px;
+    color:#332762;
+}
+.nav-links{
+    text-align: center;
+    padding-block:15px;
+  
+   background-color: #332762;
+}
+.nav-links ul li::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    display: block;
+    
+    background-color: white;
+    margin: auto;
+    transition: 0.3s ease-in-out;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+li{
+    display: inline-block;
+    padding-inline:50px;
+    
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-size:15px;
+}
+.main{
+    width:100%;
+    height: 79vh;
+    background-image:linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)), url("https://agnel-polytechnic-vashi.vercel.app/gallery/Facilities/Boys%20Hostel.JPG");
+    background-position: center;
+    background-size: cover;
+    
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#h01{
+    color:white;
+    font-size: 62px;
+}
+#p01{
+    color:#fff;
+    padding-block:20px;
+    font-size: 20px;
+    margin-bottom:20px;
+}
+.visit{
+    transition:0.3s ease-in-out;
+    border:1px solid white;
+    padding:15px;
+    border-radius: 4px;
+}
+.visit:hover{
+    background-color: #221a41;
+}
+.course{
+    width: 82%;
+    text-align:center;
+    padding-top:100px;
+    margin:auto;
+}
+.heading{
+    font-size:36px;
+}
+.para{
+    color:#999;
+    line-height: 22px;
+    padding:10px;
+}
+.row{
+    width: 100%;
+    margin-top:5%;
+    display:flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+
+}
+::-webkit-scrollbar{
+    height: 8px;
+}
+::-webkit-scrollbar-track{
+    background: white;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb{
+    background: #ddd;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #999;
+}
+.course-col{
+    flex: 0 0 32%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-right: 4px;
+    margin-left: 10px;
+    padding:20px 12px;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin:10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+.facilities{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top: 100px;
+
+}
+.facilities-col{
+    flex-basis:31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width:100%;
+    border-radius: 10px;
+}
+.facilities-col p{
+    padding:0;
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom:15px;
+    text-align:left;
+
+}
+.contact-btn{
+    padding-block: 10px;
+    padding-inline: 20px;
+}
+.cta{
+    margin:100px auto;
+    width:80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding:100px 0;
+}
+.cta h1{
+    color:#fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.footer{
+    width:100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top:20px;
+    font-weight: 600;
+
+}
+.icons .fa{
+    color:#332762;
+    margin:0 13px;
+    padding: 18px 0;
+}
+.aboutus{
+    width:80%;
+    margin:auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+}
+.aboutcol{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.aboutcol img{
+    width:100%;
+}
+.aboutcol h1{
+    padding-top: 0;
+}
+.aboutcol p{
+    padding:15px 0 25px;
+}
+.aboutcol .redvisit{
+    margin-top: 30px;
+}
+.redvisit{
+    border:1px solid #332762;
+    background: transparent;
+    color:#332762;
+    padding-block: 10px;
+    padding-inline: 20px;
+}
+.redvisit:hover{
+    color:#fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 60px;
+    padding-block: 40px;
+}
+.list1{
+    padding-inline: 10px;
+}
+.linkss ul li::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    display: block;
+    background: #fff;
+    margin: auto;
+    transition: 0.3s ease-in-out;
+}
+.linkss ul li:hover::after{
+    width: 100%;
+}
+.pol{
+    font-weight: 400;
+    font-size: 20px;
+}
+.subheader{
+    height:50vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/back.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+}
+.subheader h1{
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.sub-header{
+    height:50vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/crse-ban.jpg);
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+}
+.sub-header h1{
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.sub_header{
+    height:50vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/crse-ban.jpg);
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+}
+.sub_header h1{
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.sub{
+    height:40vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/campus-life-banner.jpg);
+    background-position:top;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+}
+
+.aboutcol h1{
+    color: #222;
+    font-size: 38px;
+}
+#we{
+    font-weight: 600;
+    color: #111;
+}
+.location{
+    width:80%;
+    margin:auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width:100%;
+}
+.contactus{
+    width:80%;
+    margin:auto;
+}
+.contactcol{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.contactcol div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contactcol div .fa{
+    font-size: 28px;
+    color:#332762;
+    margin:10px;
+    margin-right: 30px;
+
+}
+.contactcol div p{
+    padding: 0;
+}
+.contactcol div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color:#555;
+    font-weight: 400;
+}
+.contactcol input, .contactcol textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:17px;
+    outline:none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.blogcontent{
+    width:80%;
+    margin:auto;
+    padding:60px 0;
+}
+.blogleft{
+    flex-basis: 65%;
+}
+.blogleft img{
+    width:100%
+}
+.blogleft h2{
+    color:#222;
+    font-weight: 600;
+    margin:30px 0;
+}
+.blogleft p{
+    color:#999;
+
+}
+.blogright{
+    flex-basis: 32%;
+}
+.blogright h3{
+    background: #f44336;
+    color:#fff;
+    padding: 7px 0;
+    font-size:16px;
+    margin-bottom: 20px;
+}
+
+.blogright div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#555;
+    padding: 8px;
+    box-sizing:border-box;
+}
+.commentbox{
+    border:1px solid #ccc;
+    margin:50px 0;
+    padding:10px 20px;
+}
+.commentbox h3{
+    text-align: left;
+}
+.commentbox input, .commentform textarea{
+    width:100%;
+    padding:10px;
+    margin:15px 0;
+    box-sizing: border-box;
+    border:none;
+    outline:none;
+    background: #f0f0f0;
+}
+.commentform button{
+    margin:10px 0;
+}
+.companies{
+    width: 82%;
+    margin: auto;
+    margin-top:5%;
+    margin-bottom: 10%;
+}
+.hor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.ver img{
+    filter:grayscale(100%);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.ver img:hover{
+    filter: grayscale(0);
+}
